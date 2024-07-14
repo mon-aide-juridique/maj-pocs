@@ -1,0 +1,17 @@
+{
+  "name": "maj-pocs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "call_api.js",
+  "scripts": {
+    "test": "node --env-file .env call_api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.36",
+    "ai": "^3.2.22"
+  }
+}
